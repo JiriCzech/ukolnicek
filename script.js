@@ -3,7 +3,7 @@ var ul = document.querySelector("ul");
 
 function newTask(){
     var text = prompt("Nový úlol:")
-    if (text != "" && tex != null){
+    if (text != "" && text != null){
         var li = document.createElement("li")
     li.innerHTML = text
     li.addEventListener("click", ()=>{
