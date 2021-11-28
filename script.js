@@ -3,7 +3,7 @@ var ul = document.querySelector("ul");
 
 function newTask(){
     var text = prompt("Nový úlol:")
-    if (text !== ""){
+    if (text != "" && tex != null){
         var li = document.createElement("li")
     li.innerHTML = text
     li.addEventListener("click", ()=>{
@@ -12,7 +12,7 @@ function newTask(){
 
     ul.appendChild(li)
     }
-    
+
 
 }
 
