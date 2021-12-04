@@ -6,12 +6,13 @@ body{
     
 }
 
-button{
-    font-size: 3rem;
+#new-task{
+    font-size: 2rem;
 }
 
 
 ul{
+    align-self: flex-start;
 
 }
 
@@ -19,6 +20,18 @@ li{
     cursor: pointer;
 }
 
+ul button {
+    position: relative;
+    left: 2rem
+    
+}
+
+
+
 .done{
     text-decoration: line-through;
+}
+
+.hide {
+    display: none;
 }
