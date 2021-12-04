@@ -17,6 +17,8 @@ function newTask(){
 }
 
 
+
+
 tasks.forEach(element => {
     element.addEventListener("click", ()=>{
         element.classList.toggle("done")
